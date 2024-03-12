@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tungty.github.io/my-app",
+  "homepage": "https://deeptech-kmitl/tungty-app",
   "name": "tungty-app",
   "version": "0.0.1",
   "private": true,
@@ -27,8 +27,8 @@
     "build:android:sim": "eas build --profile development --platform android --local",
     "build:android:dev": "eas build --profile development:device --platform android --local",
     "build:android:prod": "eas build --profile production --platform android --local",
-    "android": "npx expo start --android",
-    "ios": "npx expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "npx expo start --web",
     "bundle:web": "npx expo export --platform web",
     "serve:web": "npx server dist",
